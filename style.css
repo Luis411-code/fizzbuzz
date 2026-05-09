@@ -1,4 +1,46 @@
 body{
     text-align: center;
-    background-color: rgb(45, 230, 220);
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(Cool.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 50px;
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 3px 3px 6px #000;
+}
+
+input{
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    
+    border: none;
+    width: 200px;
+}
+
+button{
+    padding: 10px 20px;
+    border-radius: 18px;
+    font-size: 15px;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background: rgb(65, 131, 216);
+}
+
+#lista {
+    margin-top: 30px;
+    font-size: 20px;
+    color: white;
+    text-shadow: 4px 4px 8px #000;
 }
