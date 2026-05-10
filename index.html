@@ -5,15 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FizzBuzz</title>
     <link rel="stylesheet" href="style.css">
+    <script src="main.js" type="module"></script>
 </head>
 <body>
+  <main>
     <h1>FizzBuzz</h1>
-    <form >
-        <input type="number" id="numero" placeholder="Ingresa un numero">
-        <button type="button" onclick="generar()">Aceptar</button>
+    <form id="fizzbuzz">
+      <input type="number" id="numero" placeholder="Ingresa un numero">
+      <button type="submit">Aceptar</button>
     </form>
-    
-    <div id="lista"></div>
-<script src="main.js"></script>
+    <hr>
+    <div id="mensaje"></div>
+    <hr>
+    <ul id="lista"></ul>
+  </main>
 </body>
 </html>
